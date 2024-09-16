@@ -12,6 +12,6 @@ spec:
       priority: 10
       services:
         - name: awx-service  # Replace with the actual service name created by AWX operator
-          port: 80           # Port that the AWX service listens on
+          port: 8051           # Port that the AWX service listens on
   tls:
     secretName: awx-secrets-tls

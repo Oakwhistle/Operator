@@ -13,7 +13,7 @@ spec:
 
   ingress_type: ingress
   ingress_host:
-    - hostname: awx.cube.lab
+    - hostname: awx-argocd.cube.lab
       tld_secret: awx-secrets-tls
 
   postgres_configuration_secret: awx-postgres-configuration

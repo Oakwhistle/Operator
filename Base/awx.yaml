@@ -11,10 +11,11 @@ spec:
   admin_user: admin
   admin_password_secret: awx-admin-password
 
-  ingress_type: ingress
-  ingress_host:
-    - hostname: awx-argocd.cube.lab
-      tld_secret: awx-secrets-tls
+  ingress_type: none
+  # ingress_type: ingress
+  # ingress_host:
+  #   - hostname: awx-argocd.cube.lab
+  #     tld_secret: awx-secrets-tls
 
   postgres_configuration_secret: awx-postgres-configuration
 
